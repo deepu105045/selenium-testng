@@ -1,9 +1,6 @@
 # UI automating using Selenium and TestNG
 
 This is a sample project that would help anyone to automate webpages using Java, Maven, Selenium and TestNG
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
 
 # Command to run test 
 ```
