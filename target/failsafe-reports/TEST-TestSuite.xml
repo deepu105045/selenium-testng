@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="21.018" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="38.489" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="9.0.1+11"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib"/>
-    <property name="browser" value="chrome"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/deepu/Documents/dev/selenium/seleniumTestng"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/deepu/Documents/dev/selenium/selenium-testng"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,9 +16,9 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/deepu/Documents/dev/selenium/seleniumTestng"/>
+    <property name="user.dir" value="/Users/deepu/Documents/dev/selenium/selenium-testng"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="9.0.1+11"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.io.tmpdir" value="/var/folders/sq/fpbbbjms0wqd2vt6bd8c64p80000gn/T/"/>
@@ -46,13 +45,13 @@
     <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.2/libexec/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="9"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dbrowser=chrome -Pselenium"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="9.0.1"/>
+    <property name="java.version" value="9.0.4"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="/usr/local/Cellar/maven/3.5.2/libexec"/>
     <property name="file.separator" value="/"/>
@@ -63,10 +62,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="googleDravidExample" classname="com.framework.ui.selenium.test.BasicTestWDIT" time="8.597"/>
-  <testcase name="googleCheeseExample" classname="com.framework.ui.selenium.test.BasicTestWDIT" time="1.057"/>
-  <testcase name="googleKholiExample" classname="com.framework.ui.selenium.test.BasicTestWDIT" time="2.364"/>
-  <testcase name="googleGeneralElectricExample" classname="com.framework.ui.selenium.test.BasicTestWDIT" time="0.287"/>
-  <testcase name="googleMilkExample" classname="com.framework.ui.selenium.test.BasicTestWDIT" time="2.689"/>
-  <testcase name="googleSachinExample" classname="com.framework.ui.selenium.test.BasicTestWDIT" time="3.059"/>
+  <testcase name="searchUsingWorkFlowPattern" classname="com.framework.ui.selenium.test.BasicTestWDIT" time="32.957"/>
 </testsuite>
