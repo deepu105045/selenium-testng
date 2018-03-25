@@ -4,11 +4,14 @@ com/framework/ui/selenium/flow/ProductSearchFlow.class
 com/framework/ui/selenium/base/DriverFactory$1.class
 com/framework/ui/selenium/base/DriverSetup.class
 com/framework/ui/selenium/base/Page.class
+com/framework/ui/selenium/realtimeReporting/TestStatus.class
 com/framework/ui/selenium/pageObjects/ProductPage.class
 com/framework/ui/selenium/pageObjects/SearchPage.class
+com/framework/ui/selenium/realtimeReporting/ResultSender.class
 com/framework/ui/selenium/base/DriverFactory.class
 com/framework/ui/selenium/base/WebDriverThread.class
 com/framework/ui/selenium/test/BasicTestWDIT.class
 com/framework/ui/selenium/listeners/ScreenshotListener.class
 com/framework/ui/selenium/base/DriverType.class
+com/framework/ui/selenium/realtimeReporting/ExecutionListener.class
 com/framework/ui/selenium/base/DriverType$1.class
